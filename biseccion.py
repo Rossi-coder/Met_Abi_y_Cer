@@ -6,9 +6,6 @@ import matplotlib.pyplot as plt  # USAMOS LA LIBRERIA DE PLOT O GRAFICAS
 def f(x):
     return pow(x/2 ,2) - 1
 
-def F(x):
-    return 1/2*x
-
 def biseccion(a,b,i):
     n=0
     while (n<3):
